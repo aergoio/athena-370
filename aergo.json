@@ -1,0 +1,12 @@
+{
+  "name" : "aergoio/athena-370",
+  "source" : "src/main/lua/main.lua",
+  "target" : "app.lua",
+  "tests": [ "src/test/lua/test-util.lua",
+             "src/test/lua/test-asset.lua",
+             "src/test/lua/test-history.lua",
+             "src/test/lua/test-balance.lua",
+             "src/test/lua/test-mint.lua",
+             "src/test/lua/test-app.lua"
+  ]
+}
